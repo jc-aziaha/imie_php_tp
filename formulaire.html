@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <main>
+            <header>
+                <!-- Titre -->
+                <h1>Entreprise ACME</h1>
+                <h1>Formulaire de commande de matériel</h1>
+            </header>
+            <div>
+                <!-- Form -->
+                <form action="retour.php" method="get">
+                    <fieldset>
+                        <div>
+                            <label for="firstName">Prénom :</label>
+                            <input type="text" name="firstName" id="firstName">
+                        </div>
+                        <div>
+                            <label for="lastName">Nom :</label>
+                            <input type="text" name="lastName" id="lastName">
+                        </div>
+                        <div>
+                            <label for="email">Email :</label>
+                            <input type="email" name="email" id="email">
+                        </div>
+                        <legend>Vos coordonnées</legend>
+                    </fieldset>
+                    <fieldset>
+                        <legend>Voulez-vous recevoir notre publicité?</legend>
+                        <div>
+                            <input name="pub" checked type="radio" id="pubYes"> <label for="pubYes">Oui</label>
+                        </div>
+                        <div>
+                            <input name="pub" type="radio" id="pubNo"> <label for="pubNo">Non</label>
+                        </div>
+                    </fieldset>
+                </form>
+            </div>
+        </main>
+    </body>
+</html>
